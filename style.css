@@ -10,3 +10,8 @@ body {
     justify-content: center;
     align-items: center;
 }
+.wrapper {
+    width: 850px;
+    display: flex;
+}
+
