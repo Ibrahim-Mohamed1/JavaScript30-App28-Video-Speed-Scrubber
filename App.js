@@ -12,4 +12,6 @@ function handleMove(e) {
     bar.style.height = height;
     bar.textContent = playbackRate.toFixed(2) + '×';
     video.playbackRate = playbackRate;
-  }
+}
+
+speed.addEventListener('mousemove', handleMove);
